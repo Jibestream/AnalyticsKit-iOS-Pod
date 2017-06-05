@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnalyticsKit-iOS-Pod_Example' do
+  pod 'AnalyticsKit-iOS-Pod', :path => '../'
+
+  target 'AnalyticsKit-iOS-Pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
