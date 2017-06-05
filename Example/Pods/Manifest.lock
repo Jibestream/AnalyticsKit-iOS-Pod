@@ -1,0 +1,16 @@
+PODS:
+  - AnalyticsKit-iOS-Pod (0.1.0)
+
+DEPENDENCIES:
+  - AnalyticsKit-iOS-Pod (from `../`)
+
+EXTERNAL SOURCES:
+  AnalyticsKit-iOS-Pod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AnalyticsKit-iOS-Pod: deef67437d45184da84fd3a35d06f961f6c4ba04
+
+PODFILE CHECKSUM: e4339d2f329296ce6d794319e4db3118360a1c4f
+
+COCOAPODS: 1.2.0.beta.1

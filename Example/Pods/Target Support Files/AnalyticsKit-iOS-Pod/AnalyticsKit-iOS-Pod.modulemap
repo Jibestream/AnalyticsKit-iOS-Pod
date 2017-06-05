@@ -1,0 +1,6 @@
+framework module AnalyticsKit_iOS_Pod {
+  umbrella header "AnalyticsKit-iOS-Pod-umbrella.h"
+
+  export *
+  module * { export * }
+}
