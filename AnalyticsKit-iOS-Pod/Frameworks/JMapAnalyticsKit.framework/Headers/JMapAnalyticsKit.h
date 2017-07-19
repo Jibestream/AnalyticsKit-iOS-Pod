@@ -9,23 +9,36 @@
 #import <Foundation/Foundation.h>
 #import <JMapCoreKit/JMapCoreKit.h>
 
-/*!
- *  Logging Options
- *
- *  @discussion Constants string to pass into
+/**
+ *  Logging Options - Server
  */
 extern NSString * _Nonnull const SERVER;
+/**
+ *  Logging Options - Map
+ */
 extern NSString * _Nonnull const MAP;
+/**
+ *  Logging Options - Icon
+ */
 extern NSString * _Nonnull const ICON;
+/**
+ *  Logging Options - Shape
+ */
 extern NSString * _Nonnull const SHAPE;
+/**
+ *  Logging Options - Tap
+ */
 extern NSString * _Nonnull const TAP;
+/**
+ *  Logging Options - Waypath
+ */
 extern NSString * _Nonnull const WAYPATH;
 
 @protocol JMapAnalyticsKitDelegate <NSObject>
 
 @optional
 
-/*!
+/**
  *  Analytics Kit Did Get Log
  *
  *  @discussion used to receive any recorded data in real time.
@@ -38,21 +51,21 @@ extern NSString * _Nonnull const WAYPATH;
 
 @interface JMapAnalyticsKit : NSObject
 
-/*!
+/**
  *  Set Delegate
  *
  *  @discussion JMapAnalyticsKitDelegate used to utilize dispatching logs to the delegate. Refer to the delegate methods above.
  */
 @property (nonatomic, weak, nullable) id<JMapAnalyticsKitDelegate> delegate;
 
-/*!
+/**
  *  Shared Instance
  *
  *  @return An JMapAnalyticsKit singleton instance
  */
 + (nonnull id)sharedInstance;
 
-/*!
+/**
  *  Set Logging Options
  *
  *  @discussion Optional API to set parameters to log in analytics.
