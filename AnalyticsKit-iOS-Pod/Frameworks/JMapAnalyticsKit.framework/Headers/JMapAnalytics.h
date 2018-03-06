@@ -34,6 +34,9 @@ extern NSString * _Nonnull const TAP;
  */
 extern NSString * _Nonnull const WAYPATH;
 
+/**
+ *  The JMapAnalyticsDelegate object
+ */
 @protocol JMapAnalyticsDelegate <NSObject>
 
 @optional
@@ -49,6 +52,9 @@ extern NSString * _Nonnull const WAYPATH;
 
 @end
 
+/**
+ *  The JMapAnalytics model
+ */
 @interface JMapAnalytics : NSObject
 
 /**
