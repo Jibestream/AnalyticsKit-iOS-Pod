@@ -7,7 +7,7 @@ s.description      = 'This CocoaPod provides the release version of the Analytic
 
 s.homepage         = 'http://www.jibestream.com/'
 s.author           = { 'louieyune' => 'lyuen@jibestream.com' }
-s.source           = { :git => 'https://github.com/louieyune/AnalyticsKit-iOS-Pod.git', :tag => "#{s.version}" }
+s.source           = { :git => 'https://github.com/Jibestream/AnalyticsKit-iOS-Pod', :tag => "#{s.version}" }
 
 s.ios.deployment_target = '9.0'
 s.platform = :ios, '9.0'
