@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/JMapAnalytics.h</key>
+		<data>
+		GlSLaf+BgACtVJeaqk1v/22ThUM=
+		</data>
+		<key>Headers/JMapAnalyticsKit.h</key>
+		<data>
+		/BFC5k2O+gCYWx3DJInvcoI9U6E=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		9mbDG60oGyk1Uf0ZnXDTNGQLlaM=
+		rC+kmchXzKG72pJ0ccVv3+7aLqA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -15,6 +23,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/JMapAnalytics.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GlSLaf+BgACtVJeaqk1v/22ThUM=
+			</data>
+			<key>hash2</key>
+			<data>
+			252qWV3yatpIHTiKplZS4f0MfonbTK+X1KGnj+KFHmI=
+			</data>
+		</dict>
+		<key>Headers/JMapAnalyticsKit.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/BFC5k2O+gCYWx3DJInvcoI9U6E=
+			</data>
+			<key>hash2</key>
+			<data>
+			KNW/pkTKeZ767eBsSYiNIZAmzv81g0wGrThGcD0e+ko=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -29,7 +59,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -60,24 +90,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -113,13 +131,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

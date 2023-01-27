@@ -1,0 +1,6 @@
+framework module JMapAnalyticsKit {
+  umbrella header "JMapAnalyticsKit.h"
+
+  export *
+  module * { export * }
+}
